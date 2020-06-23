@@ -4,7 +4,7 @@ body {
     background: pink;
     color: #e6e6e6;
     text-align: center;
-    margin: 0px 0px 80px 0px;
+    margin: 0px;
     margin-top: 8vh;
     
 }
@@ -119,10 +119,11 @@ p{
     font-family: 'Heebo', sans-serif;
     padding: 30px;
     font-size: 1.5em;
-    width: 80%;
+    width: 60%;
     margin: auto;
     text-align: justify;
     transition: all 0.5s;
+    line-height: 1.75em;
 }
 
 @media (min-width: 1px) and (max-width: 1500px){
