@@ -17,13 +17,13 @@ body {
     
 }
 .fg{
-    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.8) 25%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.8) 75%, rgba(0,0,0,0));
+    background-image: linear-gradient(to right, rgba(52,97,0,0), rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.9) 50%, rgba(0,0,0,0.8) 80%, rgba(52,97,0,0));
     padding: 25px 0 25px 0;
     margin: 175px 0px;
 }
 .textbg{
             background-image: linear-gradient(to right, #0D0D0D, #262626 50%, #0D0D0D);
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .menu1{
@@ -70,10 +70,10 @@ a:link, a:visited{
     text-decoration: none;
     color: #e6e6e6;
     font-size: 1.5em;
-    transition: color 4s;
+    transition: all 2s;
 }
 a:hover{
-    transition: color 0.5s;
+    transition: all 0.5s;
 }
 .linkS{
         width: 20%;
@@ -82,7 +82,7 @@ a:hover{
         width: 30%;
 }
 .linkS:hover, .linkL:hover{
-    color: #0057ff;
+    color: #346100;
 }
 
 
@@ -90,10 +90,17 @@ a:hover{
         font-family: 'Merriweather', serif;
     font-size: 0.75em;
     font-weight: 900;
-    padding: 20px;
-        border: 5px red;
+    margin: 20px;
+    padding: 10px 20px;
+   background: #e6e6e6;
 }
-
+.cta:link, .cta:visited{
+    color: #0D0D0D;
+}
+.cta:hover{
+    background: #346100;
+    color: #e6e6e6;
+}
 h1{
     font-family: 'Merriweather', serif;
     font-weight: 900;
