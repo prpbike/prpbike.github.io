@@ -5,25 +5,25 @@ body {
     color: #e6e6e6;
     text-align: center;
     margin: 0px 0px 80px 0px;
+    margin-top: 8vh;
     
 }
-
-
-
 #top{
-      background-image: url("/img/img_1.jpg");
-    
-        background-size: cover;  
+      
+    background: url("/img/img_1.jpg") center center no-repeat;  
+    background-size: auto 100%;
     padding: 40px 0;
-    height: 700px;
+    height: 620px;
+    
 }
 .fg{
-    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75) 25%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.75) 75%, rgba(0,0,0,0));
-    padding: 0px 0 25px 0;
-    margin: 200px 0px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.8) 25%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.8) 75%, rgba(0,0,0,0));
+    padding: 25px 0 25px 0;
+    margin: 175px 0px;
 }
 .textbg{
             background-image: linear-gradient(to right, #0D0D0D, #262626 50%, #0D0D0D);
+    padding-top: 30px;
 }
 
 .menu1{
@@ -32,6 +32,7 @@ body {
     height: 8vh;
 /*    bottom: 0;*/
     position: fixed;
+    
 
 
 
@@ -42,24 +43,25 @@ body {
         width: 100%;
         position: fixed;
         height: 8vh;
+    margin-top: -8vh;
 }
 ul{
     width: 40%;
-
+margin: auto;
     list-style: none;
-    padding: 0px;
-            margin-left: auto;
-    margin-right: 0;
+    padding: 0px 25px 0px 0px;
             transition: all 1s;
+        margin-top: -8vh;
     
 }
 li{
     display: inline-block;
     height: 10vh;
-    line-height: 5vh;
+    line-height: 8vh;
     font-family: 'Merriweather', serif;
     font-size: 0.75em;
     font-weight: 300;
+    
 
     
 }
@@ -73,43 +75,49 @@ a:link, a:visited{
 a:hover{
     transition: color 0.5s;
 }
-.link1{
+.linkS{
         width: 20%;
 }
-.link1:hover{
+.linkL{
+        width: 30%;
+}
+.linkS:hover, .linkL:hover{
     color: #0057ff;
 }
-.link2{
-        width: 20%;
-}
-.link2:hover{
-    color: #283e4a;
-}
-.link3{
-        width: 30%;
-}
-.link3:hover{
-    color: #614e6e;
-}
-.link4{
-        width: 30%;
-}
-.link4:hover{
-    color: #00ffff;
+
+
+.cta{
+        font-family: 'Merriweather', serif;
+    font-size: 0.75em;
+    font-weight: 900;
+    padding: 20px;
+        border: 5px red;
 }
 
 h1{
     font-family: 'Merriweather', serif;
     font-weight: 900;
-    width: 80%;
     margin: auto;
     font-size: 8em;
-    vertical-align: middle;
-    
+    width: 95%
+}
+h2{
+        font-family: 'Merriweather', serif;
+    font-weight: 900;
+
+    margin: auto;
+    font-size: 4em;
+        width: 95%;
+}
+
+.menu2{
+
+    display: inline-block;
+        
 }
 p{
     font-family: 'Heebo', sans-serif;
-    padding-top: 30px;
+    padding: 30px;
     font-size: 1.5em;
     width: 80%;
     margin: auto;
@@ -117,10 +125,15 @@ p{
     transition: all 0.5s;
 }
 
-@media (min-width: 1px) and (max-width: 1650px){
+@media (min-width: 1px) and (max-width: 1500px){
     
     ul{
-    width: 60%;
+    width: 70%;
         transition: all 1s;
     }
+    .cta{
+
+    display: block;
+        
+}
 }
