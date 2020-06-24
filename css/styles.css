@@ -105,7 +105,7 @@ a:hover{
     font-weight: 900;
     margin: 30px;
     padding: 10px 20px;
-    background-image: linear-gradient(to right, #DEDEDE, #e6e6e6 50%, #DEDEDE);
+    background-image: linear-gradient(to right, #e6e6e6, #DEDEDE 50%, #e6e6e6);
             transition: all 1s;
 }
 .cta:link, .cta:visited{
