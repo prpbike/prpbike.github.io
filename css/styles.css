@@ -109,10 +109,11 @@ a:hover{
             transition: all 1s;
 }
 .cta:link, .cta:visited{
-    color: #0D0D0D;
+    color: #346100;
+   
 }
 .cta:hover{
-    color: #346100;
+    color: #0D0D0D;
 }
 h1{
     font-family: 'Merriweather', serif;
@@ -157,9 +158,9 @@ p{
 }
 
 .safetyH2{
-      color: #0D0D0D;
+      color: #346100;
     padding-top: 40px;
-        text-shadow: 0px 4px #DEDEDE;
+        text-shadow: 0px 2px #1b3300;
 }
 .safetyP{
     color: #0D0D0D;
