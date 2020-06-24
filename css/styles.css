@@ -17,13 +17,14 @@ body {
     
 }
 .fg{
-    background-image: linear-gradient(to right, rgba(52,97,0,0), rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.9) 50%, rgba(0,0,0,0.8) 80%, rgba(52,97,0,0));
+    background-image: linear-gradient(to right, rgba(52,97,0,0.15), rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.9) 50%, rgba(0,0,0,0.8) 80%, rgba(52,97,0,0.15));
     padding: 25px 0 25px 0;
     margin: 175px 0px;
+            transition: all 1s;
 }
 .textbg{
-            background-image: linear-gradient(to right, #0D0D0D, #262626 50%, #0D0D0D);
-    padding-top: 40px;
+            background-image: linear-gradient(to right, black, #0D0D0D 50%, black);
+    padding-top: 50px;
 }
 
 .menu1{
@@ -39,7 +40,7 @@ body {
     
 }
 .menuBG{
-    background-color: black;
+            background-image: linear-gradient(to right, black, #0D0D0D 50%, black);
         width: 100%;
         position: fixed;
         height: 8vh;
@@ -77,9 +78,12 @@ a:hover{
 }
 .linkS{
         width: 20%;
+
+                transition: all 1s;
 }
 .linkL{
         width: 30%;
+          transition: all 1s;
 }
 .linkS:hover, .linkL:hover{
     color: #346100;
@@ -90,24 +94,26 @@ a:hover{
         font-family: 'Merriweather', serif;
     font-size: 0.75em;
     font-weight: 900;
-    margin: 20px;
+    margin: 30px;
     padding: 10px 20px;
-   background: #e6e6e6;
+    background-image: linear-gradient(to right, #DEDEDE, #e6e6e6 50%, #DEDEDE);
+            transition: all 1s;
 }
 .cta:link, .cta:visited{
     color: #0D0D0D;
 }
 .cta:hover{
-    background: #346100;
-    color: #e6e6e6;
+    color: #346100;
 }
 h1{
     font-family: 'Merriweather', serif;
     font-weight: 900;
     margin: auto;
     font-size: 8em;
-    width: 95%
+    width: 95%;
+            transition: all 1s;
 }
+
 h2{
         font-family: 'Merriweather', serif;
     font-weight: 900;
@@ -115,6 +121,7 @@ h2{
     margin: auto;
     font-size: 4em;
         width: 95%;
+            transition: all 1s;
 }
 
 .menu2{
@@ -124,7 +131,7 @@ h2{
 }
 p{
     font-family: 'Heebo', sans-serif;
-    padding: 30px;
+    padding: 40px;
     font-size: 1.5em;
     width: 60%;
     margin: auto;
@@ -133,7 +140,12 @@ p{
     line-height: 1.75em;
 }
 
-@media (min-width: 1px) and (max-width: 1500px){
+@media (min-width: 1px) and (max-width: 1564px){
+    
+    .fg{
+    margin: 85px 0px;
+                transition: all 1s;
+}
     
     ul{
     width: 70%;
@@ -142,6 +154,57 @@ p{
     .cta{
 
     display: block;
+        transition: all 1s;
         
 }
+}
+@media (min-width: 1px) and (max-width: 1100px){
+    h1{
+        font-size: 6em;
+                transition: all 1s;
+    }
+    h2{
+        font-size: 3em;
+                transition: all 1s;
+    }
+        .fg{
+    margin: 135px 0px;
+                transition: all 1s;
+}
+}
+@media (min-width: 1px) and (max-width: 900px){
+    body{
+            margin-top: 0vh;
+        margin-bottom: 8vh;
+    }
+.menu1{
+
+    width: 100%;
+    height: 8vh;
+    bottom: 0;
+    position: fixed;
+        margin-bottom: -8vh;
+        
+}
+    
+    .menuBG{
+        width: 100%;
+        position: fixed;
+        height: 8vh;
+            bottom: 0;
+
+}
+    .linkS{
+        width: 15%;
+
+                transition: all 1s;
+}
+.linkL{
+        width: 35%;
+          transition: all 1s;
+}
+        ul{
+    width: 95%;
+        transition: all 1s;
+    }
 }
