@@ -176,7 +176,7 @@ p{
 }
 .footerbg{
     background-image: linear-gradient(to right, #1b3300, #346100 50%, #1b3300); 
-        padding: 30px 20px;
+        padding: 30px 10px;
 }
 h3{
      font-family: 'Merriweather', serif;
@@ -277,11 +277,11 @@ a.footer{
                 transition: all 1s;
 }
 .linkL{
-        width: 32%;
+        width: 34%;
           transition: all 1s;
 }
     #linkInsta{
-        width: 13%;
+        width: 15%;
         max-height: 14px;
     }
         ul{
