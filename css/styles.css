@@ -55,7 +55,7 @@ ul{
     width: 40%;
 margin: auto;
     list-style: none;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 5px 0px 0px;
             transition: all 1s;
         margin-top: -8vh;
   
@@ -90,13 +90,13 @@ a:hover{
                 transition: all 1s;
 }
 .linkL{
-        width: 30%;
+        width: 25%;
     
           transition: all 1s;
 }
 #linkInsta{
     
-            width: 10%;
+            width: 15%;
         max-height: 18px;
                 transition: all 1s;
 }
@@ -277,10 +277,11 @@ a.footer{
                 transition: all 1s;
 }
 .linkL{
-        width: 35%;
+        width: 30%;
           transition: all 1s;
 }
     #linkInsta{
+        width: 15%;
         max-height: 14px;
     }
         ul{
