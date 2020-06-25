@@ -286,6 +286,7 @@ a.footer{
     }
         ul{
     width: 95%;
+    padding: 0px;
         transition: all 1s;
     }
             .fg{
