@@ -46,10 +46,8 @@ body {
         position: fixed;
         height: 8vh;
     margin-top: -8vh;
-/*
-    border-bottom: solid #DEDEDE;
+    border-bottom: solid #0D0D0D;
 border-width: 2px;
-*/
     z-index: 1;
              transition: all 1s;
 }
@@ -220,10 +218,9 @@ p{
         position: fixed;
         height: 8vh;
             bottom: 0;
-/*
       border-bottom: none;
-          border-top: solid #DEDEDE;
-*/
+          border-top: solid #0D0D0D;
+        border-width: 2px;
                  transition: all 1s;
 }
     li{
