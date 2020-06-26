@@ -82,6 +82,7 @@ a:link, a:visited{
     
 }
 a:hover{
+     color: #0D0D0D;
     transition: all 0.5s;
 }
 .linkS{
