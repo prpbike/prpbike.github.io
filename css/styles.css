@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Merriweather:wght@300;900&display=swap');
 
+::selection {
+  background: #346100;
+}
+
 body {
     background-image: linear-gradient(to right, black, #0D0D0D 50%, black);
     color: #e6e6e6;
