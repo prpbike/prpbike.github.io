@@ -67,23 +67,26 @@ a:hover {
 
 .linkS {
     width: 20%;
-    transition: all 1s;
 }
 
 .linkL {
     width: 25%;
-    transition: all 1s;
 }
 
 .linkInsta {
+    filter: invert(100%) sepia(0%) saturate(943%) hue-rotate(48deg) brightness(118%) contrast(80%);
     width: 15%;
     max-height: 18px;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .linkS:hover,
 .linkL:hover {
     color: #0D0D0D;
+}
+
+.linkInsta:hover {
+    filter: invert(0%) sepia(28%) saturate(3505%) hue-rotate(340deg) brightness(83%) contrast(90%);
 }
 
 /* Top Banner + h2 */
