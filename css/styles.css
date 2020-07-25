@@ -101,7 +101,7 @@ a:hover {
 .banner {
     background-image: linear-gradient(to right, rgba(52, 97, 0, 0.15), rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0.8) 80%, rgba(52, 97, 0, 0.15));
     padding: 25px 0 25px 0;
-    margin-top: 35px;
+    margin-top: 40px;
     margin-bottom: 0px;
     transition: all 1s;
 }
@@ -305,7 +305,7 @@ a.footer {
     }
 
     .banner {
-        margin: 5px 0px;
+        margin: 0px 0px;
         transition: all 1s;
     }
 
