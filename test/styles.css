@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Merriweather:wght@300;900&display=swap');
+
+::selection {
+  background: #346100;
+}
+
+body {
+    background-image: linear-gradient(to right, #010101, #1a151b 50%, #010101);
+    color: #edf6e3;
+    text-align: center;
+    margin: 0px;
+    margin-top: 8vh;
+    transition: all 1s;
+}
+
+/* Nav Menu + ul/li + a */
+.navMenuBG {
+    background-image: linear-gradient(to right, #ddb30d, #ffdb19 50%, #ddb30d);
+    width: 100%;
+    position: fixed;
+    height: 8vh;
+    margin-top: -8vh;
+    border-bottom: solid #1a151b;
+    border-width: 2px;
+    z-index: 1;
+    transition: all 1s;
+}
+
+.navMenu {
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    z-index: 2;
+    transition: all 1s;
+}
+
+ul {
+    width: 40%;
+    margin: auto;
+    list-style: none;
+    padding: 0px 5px 0px 0px;
+    transition: all 1s;
+    margin-top: -8vh;
+}
+
+li {
+    display: inline-block;
+    height: 10vh;
+    line-height: 8vh;
+    font-family: 'Merriweather', serif;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #1a151b;
+    font-size: 1.5em;
+    transition: all 2s;
+}
+
+a:hover {
+    color: #ed5095;
+    transition: all 0.5s;
+}
+
+.linkS {
+    width: 20%;
+}
+
+.linkL {
+    width: 25%;
+}
+
+.linkInsta {
+    filter: invert(6%) sepia(4%) saturate(3742%) hue-rotate(244deg) brightness(94%) contrast(92%);
+    width: 15%;
+    max-height: 18px;
+    transition: all 1s;
+}
+
+/*
+.linkS:hover,
+.linkL:hover {
+    color: #0D0D0D;
+}
+*/
+
+.linkInsta:hover {
+    filter: invert(64%) sepia(52%) saturate(6675%) hue-rotate(305deg) brightness(97%) contrast(91%);
+}
+
+/* Top Banner + h2 */
+.top {
+
+    background: url("/img/img_1.jpg") center center no-repeat;
+    background-size: auto 100%;
+    padding: 40px 0;
+    height: 620px;
+}
+
+.banner {
+    background-image: linear-gradient(to right, rgba(26, 21, 27, 0.15), rgba(26, 21, 27, 0.85) 20%, rgba(1, 1, 1, 0.9) 50%, rgba(26, 21, 27, 0.85) 80%, rgba(26, 21, 27, 0.15));
+    padding: 25px 0 25px 0;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    transition: all 1s;
+}
+
+.sprp {
+    max-height: 250px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    margin: auto;
+    font-size: 8em;
+    width: 95%;
+    text-shadow: 0px 2px #52c881;
+    transition: all 1s;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    margin: auto;
+    font-size: 4em;
+    width: 95%;
+    text-shadow: 0px 1px #52c881;
+    transition: all 1s;
+}
+
+.greenH2 {
+    color: #ffdb19;
+    padding-top: 40px;
+    text-shadow: 0px 2px #ddb30d;
+}
+
+/* Black Background */
+.blackbg {
+    background-image: linear-gradient(to right, #010101, #1a151b 50%, #010101);
+    padding: 50px 0;
+}
+
+.whiteButton {
+    font-family: 'Merriweather', serif;
+    font-size: 0.75em;
+    font-weight: 900;
+    margin: 30px;
+    padding: 10px 20px;
+    background: #ed5095;
+    transition: all 1s;
+    box-shadow: 0px 4px #ffdb19;
+    border-radius: 20px;
+}
+
+.whiteButton:link,
+.whiteButton:visited {
+    color: #edf6e3;
+}
+
+.whiteButton:hover {
+    color: #ffdb19;
+}
+
+.contentButtons {
+    display: inline-block;
+}
+
+p{
+    font-family: 'Heebo', sans-serif;
+    padding: 40px;
+    font-size: 1.5em;
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.75em;
+    transition: all 1s;
+}
+
+.bodyLink{
+    font-size: 1em;
+}
+
+.bodyLink:hover{
+    color: #346100; 
+}
+
+/* White Background */
+.whiteBG {
+    background-image: linear-gradient(to right, #71f0a3, #52c881 50%, #71f0a3);
+}
+
+
+.whiteP {
+    color: #010101;
+}
+
+/* Footer */
+.footerBG {
+    background-image: linear-gradient(to right, #ddb30d, #ffdb19 50%, #ddb30d);
+    padding: 30px 5px;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    padding-bottom: 10px;
+    margin: auto;
+    font-size: 2.5em;
+    width: 95%;
+    color: #1a151b;
+    text-shadow: 0px 1px #010101;
+    transition: all 1s;
+}
+
+.footerButtons {
+    display: inline;
+}
+
+a.footer {
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    transition: all 1s;
+}
+
+/* Tablet */
+@media (min-width: 1px) and (max-width: 1564px) {
+
+    .banner {
+        margin: 10px 0px;
+        transition: all 1s;
+    }
+    
+    .sprp {
+        max-height: 150px;
+    }
+    
+    .whiteButton {
+        display: block;
+        transition: all 1s;
+
+    }
+
+    ul {
+        width: 70%;
+        transition: all 1s;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 1100px) {
+    .banner {
+        margin: 80px 0px;
+        transition: all 1s;
+    }
+
+    h1 {
+        font-size: 5em;
+        transition: all 1s;
+    }
+
+    h2 {
+        font-size: 2.5em;
+        transition: all 1s;
+    }
+
+    h3 {
+        font-size: 2em;
+        transition: all 1s;
+    }
+}
+
+/* Mobile */
+@media (min-width: 1px) and (max-width: 900px) {
+    body {
+        margin-top: 0vh;
+        margin-bottom: 8vh;
+        transition: all 1s;
+    }
+
+    .navMenu {
+        width: 100%;
+        height: 8vh;
+        bottom: 0;
+        position: fixed;
+        margin-bottom: -8vh;
+        transition: all 1s;
+
+    }
+
+    .navMenuBG {
+        width: 100%;
+        position: fixed;
+        height: 8vh;
+        bottom: 0;
+        border-bottom: none;
+        border-top: solid #0D0D0D;
+        border-width: 2px;
+        transition: all 1s;
+    }
+
+    .linkS {
+        width: 15%;
+        transition: all 1s;
+    }
+
+    .linkL {
+        width: 34%;
+        transition: all 1s;
+    }
+
+    .linkInsta {
+        width: 15%;
+        max-height: 14px;
+    }
+
+    .banner {
+        margin: 0px 0px;
+        transition: all 1s;
+    }
+
+    a.footer {
+        font-size: 0.65em;
+        transition: all 1s;
+    }
+
+    ul {
+        width: 95%;
+        padding: 0px;
+        transition: all 1s;
+    }
+
+    li {
+        font-size: 0.65em;
+        transition: all 1s;
+    }
+
+    p {
+        padding: 40px 0px;
+        font-size: 1.25em;
+        width: 90%;
+        line-height: 1.5em;
+        transition: all 1s;
+    }
+}
