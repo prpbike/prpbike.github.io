@@ -133,14 +133,16 @@ h2 {
 }
 
 .greenH2 {
-    color: #ffdb19;
+    color: #1a151b;
     padding-top: 40px;
-    text-shadow: 0px 2px #ddb30d;
+    text-shadow: 0px 2px #ffdb19;
 }
 
 /* Black Background */
 .blackbg {
-    background-image: linear-gradient(to right, #010101, #1a151b 50%, #010101);
+/*    background-image: linear-gradient(to right, #010101, #1a151b 50%, #010101);*/
+    background-image: linear-gradient(to right, #52c881, #71f0a3 50%, #52c881);
+/*    background: #edf6e3;*/
     padding: 50px 0;
 }
 
@@ -152,7 +154,7 @@ h2 {
     padding: 10px 20px;
     background: #ed5095;
     transition: all 1s;
-    box-shadow: 0px 4px #ffdb19;
+    box-shadow: 0px 4px #ddb30d;
     border-radius: 20px;
 }
 
@@ -163,6 +165,7 @@ h2 {
 
 .whiteButton:hover {
     color: #ffdb19;
+    box-shadow: 0px 0px #ddb30d;
 }
 
 .contentButtons {
@@ -178,6 +181,7 @@ p{
     text-align: justify;
     line-height: 1.75em;
     transition: all 1s;
+    color: #1a151b;
 }
 
 .bodyLink{
@@ -190,7 +194,8 @@ p{
 
 /* White Background */
 .whiteBG {
-    background-image: linear-gradient(to right, #71f0a3, #52c881 50%, #71f0a3);
+/*    background-image: linear-gradient(to right, #52c881, #71f0a3 50%, #52c881);*/
+    background: #edf6e3;
 }
 
 
