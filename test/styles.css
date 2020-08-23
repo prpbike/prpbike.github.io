@@ -5,8 +5,8 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #010101, #1a151b 50%, #010101);
-    color: #edf6e3;
+    background-image: linear-gradient(to right, black, #0D0D0D 50%, black);
+    color: #e6e6e6;
     text-align: center;
     margin: 0px;
     margin-top: 8vh;
@@ -15,12 +15,12 @@ body {
 
 /* Nav Menu + ul/li + a */
 .navMenuBG {
-    background-image: linear-gradient(to right, #ddb30d, #ffdb19 50%, #ddb30d);
+    background-image: linear-gradient(to right, #1b3300, #346100 50%, #1b3300);
     width: 100%;
     position: fixed;
     height: 8vh;
     margin-top: -8vh;
-    border-bottom: solid #1a151b;
+    border-bottom: solid #0D0D0D;
     border-width: 2px;
     z-index: 1;
     transition: all 1s;
@@ -55,13 +55,13 @@ li {
 a:link,
 a:visited {
     text-decoration: none;
-    color: #1a151b;
+    color: #e6e6e6;
     font-size: 1.5em;
     transition: all 2s;
 }
 
 a:hover {
-    color: #ed5095;
+    color: #0D0D0D;
     transition: all 0.5s;
 }
 
@@ -74,21 +74,19 @@ a:hover {
 }
 
 .linkInsta {
-    filter: invert(6%) sepia(4%) saturate(3742%) hue-rotate(244deg) brightness(94%) contrast(92%);
+    filter: invert(100%) sepia(0%) saturate(943%) hue-rotate(48deg) brightness(118%) contrast(80%);
     width: 15%;
     max-height: 18px;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
-/*
 .linkS:hover,
 .linkL:hover {
     color: #0D0D0D;
 }
-*/
 
 .linkInsta:hover {
-    filter: invert(64%) sepia(52%) saturate(6675%) hue-rotate(305deg) brightness(97%) contrast(91%);
+    filter: invert(0%) sepia(28%) saturate(3505%) hue-rotate(340deg) brightness(83%) contrast(90%);
 }
 
 /* Top Banner + h2 */
@@ -101,7 +99,7 @@ a:hover {
 }
 
 .banner {
-    background-image: linear-gradient(to right, rgba(26, 21, 27, 0.15), rgba(26, 21, 27, 0.85) 20%, rgba(1, 1, 1, 0.9) 50%, rgba(26, 21, 27, 0.85) 80%, rgba(26, 21, 27, 0.15));
+    background-image: linear-gradient(to right, rgba(52, 97, 0, 0.15), rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0.8) 80%, rgba(52, 97, 0, 0.15));
     padding: 25px 0 25px 0;
     margin-top: 40px;
     margin-bottom: 0px;
@@ -118,7 +116,7 @@ h1 {
     margin: auto;
     font-size: 8em;
     width: 95%;
-    text-shadow: 0px 2px #52c881;
+    text-shadow: 0px 4px #0D0D0D;
     transition: all 1s;
 }
 
@@ -128,21 +126,19 @@ h2 {
     margin: auto;
     font-size: 4em;
     width: 95%;
-    text-shadow: 0px 1px #52c881;
+    text-shadow: 0px 4px #0D0D0D;
     transition: all 1s;
 }
 
 .greenH2 {
-    color: #1a151b;
+    color: #346100;
     padding-top: 40px;
-    text-shadow: 0px 2px #ffdb19;
+    text-shadow: 0px 2px #1b3300;
 }
 
 /* Black Background */
 .blackbg {
-/*    background-image: linear-gradient(to right, #010101, #1a151b 50%, #010101);*/
-    background-image: linear-gradient(to right, #52c881, #71f0a3 50%, #52c881);
-/*    background: #edf6e3;*/
+    background-image: linear-gradient(to right, black, #0D0D0D 50%, black);
     padding: 50px 0;
 }
 
@@ -152,20 +148,17 @@ h2 {
     font-weight: 900;
     margin: 30px;
     padding: 10px 20px;
-    background: #ed5095;
+    background-image: linear-gradient(to right, #e6e6e6, #DEDEDE 50%, #e6e6e6);
     transition: all 1s;
-    box-shadow: 0px 4px #ddb30d;
-    border-radius: 20px;
 }
 
 .whiteButton:link,
 .whiteButton:visited {
-    color: #edf6e3;
+    color: #346100;
 }
 
 .whiteButton:hover {
-    color: #ffdb19;
-    box-shadow: 0px 0px #ddb30d;
+    color: #0D0D0D;
 }
 
 .contentButtons {
@@ -181,7 +174,6 @@ p{
     text-align: justify;
     line-height: 1.75em;
     transition: all 1s;
-    color: #1a151b;
 }
 
 .bodyLink{
@@ -194,18 +186,17 @@ p{
 
 /* White Background */
 .whiteBG {
-/*    background-image: linear-gradient(to right, #52c881, #71f0a3 50%, #52c881);*/
-    background: #edf6e3;
+    background-image: linear-gradient(to right, #DEDEDE, #e6e6e6 50%, #DEDEDE);
 }
 
 
 .whiteP {
-    color: #010101;
+    color: #0D0D0D;
 }
 
 /* Footer */
 .footerBG {
-    background-image: linear-gradient(to right, #ddb30d, #ffdb19 50%, #ddb30d);
+    background-image: linear-gradient(to right, #1b3300, #346100 50%, #1b3300);
     padding: 30px 5px;
 }
 
@@ -216,8 +207,7 @@ h3 {
     margin: auto;
     font-size: 2.5em;
     width: 95%;
-    color: #1a151b;
-    text-shadow: 0px 1px #010101;
+    text-shadow: 0px 1px #0D0D0D;
     transition: all 1s;
 }
 
