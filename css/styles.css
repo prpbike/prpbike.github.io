@@ -182,11 +182,31 @@ p{
     color: #346100; 
 }
 
-/*
-.calendar{
-    max-width: 90%;
+
+.big{
+    max-width: 60%;
+    margin: 0 auto;
 }
-*/
+
+.small{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.calendar{
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 30px;
+   height: 0;
+   overflow: hidden;
+}
+.calendar iframe, .calendar object, .calendar embed{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
 
 /* Safety Background */
 .whiteBG {
@@ -225,6 +245,14 @@ a.footer {
     font-family: 'Merriweather', serif;
     font-weight: 300;
     transition: all 1s;
+}
+
+
+/* Desktop Calendar Display */
+@media (min-width: 900px) {
+.small{
+       display: none;
+   }
 }
 
 /* Tablet */
@@ -345,4 +373,8 @@ a.footer {
         line-height: 1.5em;
         transition: all 1s;
     }
+    .big{
+       display: none;
+   }
+}
 }
