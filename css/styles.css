@@ -126,26 +126,31 @@ h2 {
 
 .bodyH2 {
     color: #1a151b;
-    padding-top: 40px;
     text-shadow: 0px 2px #ffdb19;
+    padding-bottom: 10px
 }
 
 /* Body Content Background Contents */
 .bodybg {
     background-image: linear-gradient(to right, #52c881, #71f0a3 50%, #52c881);
-    padding: 50px 0;
+    padding: 40px 0px 10px 0px;
+}
+
+.contentButtons {
+    display: inline-block;
 }
 
 .button {
     font-family: 'Merriweather', serif;
     font-size: 0.75em;
     font-weight: 900;
-    margin: 30px;
     padding: 10px 20px;
     background: #ed5095;
     transition: all 1s;
     box-shadow: 0px 4px #ddb30d;
     border-radius: 20px;
+    display: block;
+    margin-bottom: 30px;
 }
 
 .button:link,
@@ -158,13 +163,9 @@ h2 {
     box-shadow: 0px 0px #ddb30d;
 }
 
-.contentButtons {
-    display: inline-block;
-}
-
 p{
     font-family: 'Heebo', sans-serif;
-    padding: 40px;
+    padding: 0 40px;
     font-size: 1.5em;
     width: 60%;
     margin: auto;
@@ -172,16 +173,8 @@ p{
     line-height: 1.75em;
     transition: all 1s;
     color: #1a151b;
+    padding-bottom: 20px;
 }
-
-.bodyLink{
-    font-size: 1em;
-}
-
-.bodyLink:hover{
-    color: #346100; 
-}
-
 
 .big{
     max-width: 60%;
@@ -199,6 +192,7 @@ p{
    padding-top: 30px;
    height: 0;
    overflow: hidden;
+    margin-bottom: 20px;
 }
 .calendar iframe, .calendar object, .calendar embed{
    position: absolute;
@@ -211,6 +205,7 @@ p{
 /* Safety Background */
 .whiteBG {
     background: #edf6e3;
+    padding-top: 40px;
 }
 
 
@@ -367,7 +362,6 @@ a.footer {
     }
 
     p {
-        padding: 40px 0px;
         font-size: 1.25em;
         width: 90%;
         line-height: 1.5em;
