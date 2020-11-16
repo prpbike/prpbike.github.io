@@ -179,6 +179,24 @@ p{
     padding-bottom: 20px;
 }
 
+.bodybg ul{
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+}
+
+.bodybg li{
+    font-family: 'Heebo', sans-serif;
+    padding: 0 40px;
+    font-size: 1.5em;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.75em;
+    transition: all 1s;
+    color: #1a151b;
+    padding-bottom: 20px;
+}
+
 .contentButtons {
     display: inline-block;
 }
