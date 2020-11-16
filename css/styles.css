@@ -34,7 +34,7 @@ body {
     transition: all 1s;
 }
 
-ul {
+.navMenu ul {
     width: 40%;
     margin: auto;
     list-style: none;
@@ -275,11 +275,11 @@ a.footer {
         margin: 10px 0px;
         transition: all 1s;
     }
-    
+
     .sprp {
         max-height: 150px;
     }
-    
+
     .button {
         display: block;
         transition: all 1s;
