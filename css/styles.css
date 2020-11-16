@@ -256,6 +256,30 @@ p{
     padding-top: 30px;
 }
 
+.pinkBG {
+    background: #F0B6D1;
+    padding-top: 30px;
+}
+
+.blueBG {
+    background: #ACADC7;
+    padding-top: 30px;
+}
+
+.greenBG {
+    background: #DAFAD9;
+    padding-top: 30px;
+}
+
+.liOrangeBG {
+    background: #FAE29B;
+    padding-top: 30px;
+}
+
+.drOrangeBG {
+    background: #FAC79B;
+    padding-top: 30px;
+}
 
 .whiteP {
     color: #010101;
