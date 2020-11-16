@@ -179,6 +179,11 @@ p{
     padding-bottom: 20px;
 }
 
+.cranksgiving p{
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
+
 .bodybg ul{
     width: 60%;
     margin: auto;
@@ -195,6 +200,10 @@ p{
     transition: all 1s;
     color: #1a151b;
     padding-bottom: 20px;
+}
+.cranksgiving .bodybg li{
+  font-size: 1.25em;
+  line-height: 1.25em;
 }
 
 .contentButtons {
