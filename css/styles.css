@@ -220,6 +220,7 @@ p{
 
 .buttonStack {
     display: block;
+    margin: auto;
     width: 60%;
 }
 
