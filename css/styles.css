@@ -5,7 +5,8 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #010101, #1a151b 50%, #010101);
+    background-color: #1a151b;
+/*    background-image: linear-gradient(to right, #010101, #1a151b 50%, #010101);*/
     color: #edf6e3;
     text-align: center;
     margin: 0px;
@@ -15,7 +16,8 @@ body {
 
 /* Nav Menu + UL/LI + A */
 .navMenuBG {
-    background-image: linear-gradient(to right, #ddb30d, #ffdb19 50%, #ddb30d);
+    background-color: #ffdb19;
+/*    background-image: linear-gradient(to right, #ddb30d, #ffdb19 50%, #ddb30d);*/
     width: 100%;
     position: fixed;
     height: 8vh;
@@ -134,7 +136,8 @@ h2 {
 
 /* Body Content Background / H3 / H4 / P / Buttons / Calendar */
 .bodybg {
-    background-image: linear-gradient(to right, #52c881, #71f0a3 50%, #52c881);
+    background-color: #71f0a3;
+/*    background-image: linear-gradient(to right, #52c881, #71f0a3 50%, #52c881);*/
     padding: 40px 0px 10px 0px;
 }
 
@@ -310,7 +313,8 @@ p{
 
 /* Footer */
 .footerBG {
-    background-image: linear-gradient(to right, #ddb30d, #ffdb19 50%, #ddb30d);
+    background-color: #ffdb19;
+/*    background-image: linear-gradient(to right, #ddb30d, #ffdb19 50%, #ddb30d);*/
     padding: 30px 5px;
 }
 
@@ -377,6 +381,16 @@ a.footer {
         font-size: 2em;
         transition: all 1s;
     }
+    
+    .linkS {
+        width: 15%;
+        transition: all 1s;
+    }
+
+    .linkL {
+        width: 34%;
+        transition: all 1s;
+    }
 }
 
 /* Mobile */
@@ -396,6 +410,10 @@ a.footer {
         transition: all 1s;
 
     }
+    
+    .navMenu ul{
+        width: 99%;
+    }
 
     .navMenuBG {
         width: 100%;
@@ -414,12 +432,12 @@ a.footer {
     }
 
     .linkL {
-        width: 34%;
+        width: 35%;
         transition: all 1s;
     }
 
     .linkInsta {
-        width: 15%;
+        width: 10%;
         max-height: 14px;
     }
 
