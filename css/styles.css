@@ -426,18 +426,7 @@ a.footer {
         transition: all 1s;
     }
 
-    .linkS {
-        width: 15%;
-        transition: all 1s;
-    }
-
-    .linkL {
-        width: 35%;
-        transition: all 1s;
-    }
-
     .linkInsta {
-        width: 10%;
         max-height: 14px;
     }
 
@@ -458,7 +447,7 @@ a.footer {
     }
 
     li {
-        font-size: 0.65em;
+        font-size: 0.65em!important;
         transition: all 1s;
     }
 
@@ -468,6 +457,7 @@ a.footer {
         line-height: 1.5em;
         transition: all 1s;
     }
+    
     .big{
        display: none;
    }
