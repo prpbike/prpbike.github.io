@@ -102,6 +102,10 @@ a:hover {
     height: 350px;
 }
 
+.homePage .top {
+    height: 625px;
+}
+
 .banner {
     background-image: linear-gradient(to right, rgba(26, 21, 27, 0.15), rgba(26, 21, 27, 0.85) 20%, rgba(1, 1, 1, 0.9) 50%, rgba(26, 21, 27, 0.85) 80%, rgba(26, 21, 27, 0.15));
     padding: 25px 0 25px 0;
